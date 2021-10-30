@@ -1,5 +1,5 @@
 :root{
-    --vemelho:#22a808;
+    --verde:#22a808;
     --preto:#141414;
 }
 
@@ -16,9 +16,10 @@ body{
     color: white;
 }
 
+
 header .logo{
     margin-left: 5px;
-    color: var(--vemelho);
+    color: var(--verde);
     font-family: 'Arial Black', Times;
     font-size: 40px;
 }
@@ -38,6 +39,7 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
 }
 
 /*Filme principal*/
@@ -104,4 +106,15 @@ header .container{
 
 .carrosel-filmes{
     margin-top: 5px;;
+}
+
+footer .x1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #22a808;
+}
+
+.botoes a {
+    text-decoration: none;
 }
